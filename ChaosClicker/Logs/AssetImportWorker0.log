@@ -1,0 +1,1285 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.16f1 (4016570cf34f) revision 4200023'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Enterprise' Language: 'en' Physical Memory: 32675 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/kauffmh/Documents/GitHub/chill-jam/ChaosClicker
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+65529
+Successfully changed project path to: C:/Users/kauffmh/Documents/GitHub/chill-jam/ChaosClicker
+C:/Users/kauffmh/Documents/GitHub/chill-jam/ChaosClicker
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [21028] Host "[IP] 161.57.24.118 [Port] 0 [Flags] 2 [Guid] 4274059544 [EditorId] 4274059544 [Version] 1048832 [Id] WindowsEditor(7,IRC-121-18) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [21028] Host "[IP] 161.57.24.118 [Port] 0 [Flags] 2 [Guid] 4274059544 [EditorId] 4274059544 [Version] 1048832 [Id] WindowsEditor(7,IRC-121-18) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 157.12 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.16f1 (4016570cf34f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/kauffmh/Documents/GitHub/chill-jam/ChaosClicker/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA Quadro K4200  (ID=0x11b4)
+    Vendor:   NVIDIA
+    VRAM:     4025 MB
+    Driver:   10.18.13.6256
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56668
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.017238 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 134.98 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.032 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1033ms)
+		BeginReloadAssembly (121ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (723ms)
+			LoadAssemblies (117ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (164ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (437ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (135ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (214ms)
+				ProcessInitializeOnLoadMethodAttributes (71ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.019586 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\kauffmh\Documents\GitHub\chill-jam\ChaosClicker\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\kauffmh\Documents\GitHub\chill-jam\ChaosClicker\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 129.78 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.789 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1791ms)
+		BeginReloadAssembly (171ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (1433ms)
+			LoadAssemblies (146ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (382ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (84ms)
+			SetupLoadedEditorAssemblies (752ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (130ms)
+				BeforeProcessingInitializeOnLoad (160ms)
+				ProcessInitializeOnLoadAttributes (371ms)
+				ProcessInitializeOnLoadMethodAttributes (65ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 1.03 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4045 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (56.1 KB). Loaded Objects now: 4501.
+Memory consumption went from 150.6 MB to 150.6 MB.
+Total: 4.732300 ms (FindLiveObjects: 0.436100 ms CreateObjectMapping: 0.246700 ms MarkObjects: 3.949000 ms  DeleteObjects: 0.099500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 208040.862044 seconds.
+  path: Assets/UI
+  artifactKey: Guid(fb15bef21be390c45828ffa137392fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI using Guid(fb15bef21be390c45828ffa137392fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77fdce95b0643630d5837d5faab4ab75') in 0.030221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 162.167859 seconds.
+  path: Assets/Main.unity
+  artifactKey: Guid(5e51ad51c248f654396459122e27e94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main.unity using Guid(5e51ad51c248f654396459122e27e94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d296472025d9c19376495e1a97cbaec') in 0.011463 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013541 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\kauffmh\Documents\GitHub\chill-jam\ChaosClicker\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\kauffmh\Documents\GitHub\chill-jam\ChaosClicker\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.546 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2546ms)
+		BeginReloadAssembly (376ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (75ms)
+		EndReloadAssembly (1928ms)
+			LoadAssemblies (287ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (1045ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (597ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (359ms)
+				ProcessInitializeOnLoadMethodAttributes (78ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.10 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4034 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (24.7 KB). Loaded Objects now: 4504.
+Memory consumption went from 150.0 MB to 150.0 MB.
+Total: 4.289100 ms (FindLiveObjects: 0.373100 ms CreateObjectMapping: 0.197400 ms MarkObjects: 3.680100 ms  DeleteObjects: 0.037400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3385.990806 seconds.
+  path: Assets/Main.unity
+  artifactKey: Guid(5e51ad51c248f654396459122e27e94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main.unity using Guid(5e51ad51c248f654396459122e27e94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5f5871684467fa690c0f6bddcdaf45f') in 0.026545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 117.240003 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4935f35005d3ccd51bf39964504ff1b7') in 0.013266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.035778 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed1ec584b86adc936d786dcf072fa9c6') in 0.014153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.473270 seconds.
+  path: Assets/Main.unity
+  artifactKey: Guid(5e51ad51c248f654396459122e27e94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main.unity using Guid(5e51ad51c248f654396459122e27e94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ec0be451a035f1c4bdf56e424c80816') in 0.004228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 117.481193 seconds.
+  path: Assets/UI/PastryClicker.unity
+  artifactKey: Guid(9401d9f9664b01d4bab51ccd21d6095d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/PastryClicker.unity using Guid(9401d9f9664b01d4bab51ccd21d6095d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea8f3ade1ed51f01a3dc6d4635bbdcda') in 0.012927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.101846 seconds.
+  path: Assets/UI/EventSystem.prefab
+  artifactKey: Guid(642e0ce3bd9f6cd4c91438c6ad01bc39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/EventSystem.prefab using Guid(642e0ce3bd9f6cd4c91438c6ad01bc39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e2627ab48bc56809aec41a444e0c552') in 0.208529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.623526 seconds.
+  path: Assets/UI/PastryClickerCanvas.prefab
+  artifactKey: Guid(97b690c8963907c4f87dd430318eb4e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/PastryClickerCanvas.prefab using Guid(97b690c8963907c4f87dd430318eb4e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cc0ec410ada9d73ababcac823a77714') in 0.042556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 155.613222 seconds.
+  path: Assets/UI/PastryClickerCanvas.prefab
+  artifactKey: Guid(97b690c8963907c4f87dd430318eb4e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/PastryClickerCanvas.prefab using Guid(97b690c8963907c4f87dd430318eb4e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68ac52a7a228bc7a0dfab75e9079fef6') in 0.012495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.399944 seconds.
+  path: Assets/UI/PastryClickerCanvas.prefab
+  artifactKey: Guid(97b690c8963907c4f87dd430318eb4e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/PastryClickerCanvas.prefab using Guid(97b690c8963907c4f87dd430318eb4e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f3c6f122f77a4f2af147af18cacb89a') in 0.020027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.808980 seconds.
+  path: Assets/UI/PastryClickerCanvas.prefab
+  artifactKey: Guid(97b690c8963907c4f87dd430318eb4e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/PastryClickerCanvas.prefab using Guid(97b690c8963907c4f87dd430318eb4e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16fffe1f871cf86f80503b2a849837fb') in 0.011077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.477206 seconds.
+  path: Assets/UI/PastryClickerCanvas.prefab
+  artifactKey: Guid(97b690c8963907c4f87dd430318eb4e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/PastryClickerCanvas.prefab using Guid(97b690c8963907c4f87dd430318eb4e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbe1f2c130579102337ec2929f98bf90') in 0.012936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.281441 seconds.
+  path: Assets/UI/PastryClicker.unity
+  artifactKey: Guid(9401d9f9664b01d4bab51ccd21d6095d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/PastryClicker.unity using Guid(9401d9f9664b01d4bab51ccd21d6095d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ec2585d370359cbd0bb7f1c3fec0c75') in 0.006901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 96.139579 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '407c56cf6b7c6bac5eef1769e681fe78') in 0.017638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.949915 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6628ca3eb80ccfcae434b4d7ac560cb') in 0.011077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.278170 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b372bed021b50bb7af469d6944fec4cb') in 0.010627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.379381 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '308b233568d8d6e989c96edff0716702') in 0.006958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.226864 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c616766297aea839921d68e444cb87e') in 0.006536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.729898 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e618a8e271307c7d955c204c0fdfffd') in 0.006068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.337050 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f20144890100df0864a2a130ed2d18d3') in 0.008644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.686610 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80973420ce9039e6e50cdd86f10b9d28') in 0.007247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.296568 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e67ed45224a783fe3789e8ece0a87c55') in 0.009142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.705216 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74f04833bc73885f9540c04a7de3643e') in 0.007479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.480007 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7427886929e821b4168b60fe38d1c3aa') in 0.010627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.011113 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '772e99e7fba78fc6ae5bca06aec41ebb') in 0.008920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.427875 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e1978216310332effaa3a5ad22a4cdf') in 0.007304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.654807 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c9c05a92f93f3bd1768dcf8fb897006') in 0.019229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.005295 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92958c94cf4137374d0503566dd7e838') in 0.011249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.017136 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8329b9dd7ddd51a14bcf340dbfb28512') in 0.008549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.090983 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f742fa850c67d037db6a8a95f4bce31f') in 0.014498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.493090 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '603249b941bcfd65c747e6e4bd6c434e') in 0.009177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.871856 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2475adc39a0856544f460ce0d0af8d9f') in 0.009945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.454821 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec846b3fb449b2fd583c3b24749b346a') in 0.014995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.395599 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecdbb1f4fdaff6d11640af7100811e08') in 0.011959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.604516 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32e14bb5e52e83fb89f0b43c0b4caff8') in 0.015360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.618717 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bba7615e0dcade3070ae771545be47b') in 0.009238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.067247 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eae75b4a2156f556ddf25c2afab06c3e') in 0.012823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.448031 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fa712defc08dadcc2224a58be64981c') in 0.008560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.248833 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '460260b3ee616485c2620f4a3929b0b2') in 0.007712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.020692 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f468f20d3bf37b18e132554b98fed37e') in 0.007930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.466534 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1126400d3972cb950bf75722c95b3366') in 0.009856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.080615 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1642956a127fa3a1c27a9b287d63922') in 0.008807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.968273 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '747cddc8cfd04958762c40485e4e808f') in 0.008539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.058598 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a2803c14d76c435e0371e0623b23758') in 0.011019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.648872 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47daf50dec2c31d967b82e35c39a4625') in 0.042754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.734391 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7489e4c00f71897280dc454934655d7') in 0.011562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.385957 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80e8cf0d7a77e9f704fdbea62f1c1dcc') in 0.007220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.395368 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '382246471ee3ef0ed5b898cda37b477d') in 0.011198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.796890 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9bb2f90ff1fc83d509c20182985287c') in 0.007478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.855029 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '424fec83e6eb901d3f7026ea7339bead') in 0.007644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.317985 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e6fca6f3a650467888ecf2e2e3cfa45') in 0.014839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.296069 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf8d3d51907aba39e9e75334ac5d80bd') in 0.008604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.111682 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab19984bacb255cbe3886dc5cfa98191') in 0.014187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.188744 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c9e1e48be1acf7a8c888f0e91a1cb35') in 0.008730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.289746 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dc0da6c4422a7438a0bd3bc7c3098ac') in 0.011153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.220070 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7aa5eff5626aa4a14b4709ee0ef351d') in 0.010419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.429568 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36ec81bfb8d2a023b8b9315aac899880') in 0.014402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.647877 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a3c1e3fa868354e6f1258fdad5e4e8d') in 0.009283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.796349 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ffcf501ba8f42788ce2d64435002d68') in 0.008046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.474610 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4a5811d31cf1ce1ea67fb8331c9af4c') in 0.008659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.450360 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e135fae3b53a755612ce3db42bbf389') in 0.009554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.216484 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd31948eca6ec2e74942b6c13fe2b6434') in 0.009645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.214017 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e827ad00b639ab7f5b140643cd329882') in 0.009128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.452751 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47fb1cca70f700b63931ac6eb9edda81') in 0.009428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.816390 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e397fb3cb1a83b25d46cf934c0988b14') in 0.011928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.529031 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00635af79b988ab4b4f02fb59f0cd45b') in 0.010271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.791322 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbf0a990536194333a9d1c1813655c32') in 0.011168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.828600 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '301417e4d75e29c88d780fbc3331bdff') in 0.009999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.359531 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a401e5d92ca9398e6e16bdc59eeb076') in 0.009864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.444726 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8d03c69bc19b3ec8301a07adf9bde10') in 0.010915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.317820 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f13f22ae32dc70252e39131393cdc23f') in 0.011934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.214329 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '396f96e81c9f8dfae9140ec027df4349') in 0.011397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 63.978776 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5287f6fab4441cc86c72214968111795') in 0.017445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.812309 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cd735de21e42661cd9de352ce2c3c07') in 0.012354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.420453 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36d87c73df7482650a0a25377add7632') in 0.009535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.393320 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09bfcd48c5bfab5c87bbcd2ac4654858') in 0.009927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.210260 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0b993ffac5b17efc75045be3355f2f2') in 0.009820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.014150 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88c5d41c8e0f098a5ee1b1cf0b2eb5ca') in 0.010023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 176.445386 seconds.
+  path: Assets/Main.unity
+  artifactKey: Guid(5e51ad51c248f654396459122e27e94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main.unity using Guid(5e51ad51c248f654396459122e27e94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c8f2a7b0ea65bb94fc341c5fe0c99a5') in 0.012445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 203.156529 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4a5d66de156f3c4598ebb33bcd93a21') in 0.021948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.136347 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03a1f44c85188d51f6f5db8b4d8374c2') in 0.009882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.369904 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ca31fc5f86a33606f53c82aa78056cd') in 0.015938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.978827 seconds.
+  path: Assets/Main.unity
+  artifactKey: Guid(5e51ad51c248f654396459122e27e94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main.unity using Guid(5e51ad51c248f654396459122e27e94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '726c6b2f4bc71cbb695805cde7c2bed3') in 0.004414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 55.054064 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c2594717d095f79f6fc75f7e83ded73') in 0.011167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.603272 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c46b703e8acee046478b394f35ad7c85') in 0.017341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.192158 seconds.
+  path: Assets/Main.unity
+  artifactKey: Guid(5e51ad51c248f654396459122e27e94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main.unity using Guid(5e51ad51c248f654396459122e27e94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4383df9090809a9bf2b73dfdf5a3ab49') in 0.003292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 114.833779 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '220b1f07a43d689d7fdb59b046421d06') in 0.011074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.671269 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05060c8d1763d871631a6609a53fa8e3') in 0.012486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.333655 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a51da5c3a3bff3f20ece8faa8d622204') in 0.014956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.258116 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49f566d812877d13b71dc0de530a14fc') in 0.011343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.304067 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e03c6ffda3abe18279e8ae99e8363d59') in 0.012859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.301570 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4070284fe462875ac3fb99cd633803b3') in 0.016726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.438374 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '610d85d24daf508571bd9f619bff23ef') in 0.015819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.636198 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '365f5d6e3b6877f912e6f1be122344f7') in 0.009617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.819122 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85118465509ba75f357d482e716daaaa') in 0.015820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 65.228906 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b6a0032bbe90c36f779d54a33ba80c2') in 0.032071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.911714 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59b88c48407c8ab78b116afb7937c15d') in 0.018309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.076570 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54240f749c57ffb06d2d4b77a49058fd') in 0.010534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.374124 seconds.
+  path: Assets/Main.unity
+  artifactKey: Guid(5e51ad51c248f654396459122e27e94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main.unity using Guid(5e51ad51c248f654396459122e27e94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fff8c163c69bad7dc66a8652b0021af') in 0.012063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 80.360994 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d2aad260f9c9fc33a0d7c1829da8a25') in 0.017715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.463415 seconds.
+  path: Assets/Main.unity
+  artifactKey: Guid(5e51ad51c248f654396459122e27e94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main.unity using Guid(5e51ad51c248f654396459122e27e94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31e57a6c47d10c4870db06e5cf3ef45b') in 0.004359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.366273 seconds.
+  path: Assets/Main.unity
+  artifactKey: Guid(5e51ad51c248f654396459122e27e94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main.unity using Guid(5e51ad51c248f654396459122e27e94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b0884aa696229b46ab0133fd18af06e') in 0.008683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 59.975557 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3073d6d6b1b4db85b97c0c3755be393') in 0.013198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.427684 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02a11767f2e06c954f337e8ab6ab55d2') in 0.024610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.052477 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b7ae16494882c7e9a555a2624b0c69d') in 0.012215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.293095 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '207e51d5924f81cb4feab5fee9c47723') in 0.011550 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012680 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\kauffmh\Documents\GitHub\chill-jam\ChaosClicker\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\kauffmh\Documents\GitHub\chill-jam\ChaosClicker\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.569 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2570ms)
+		BeginReloadAssembly (345ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (58ms)
+		EndReloadAssembly (1958ms)
+			LoadAssemblies (291ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1045ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (595ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (131ms)
+				ProcessInitializeOnLoadAttributes (357ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.49 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4034 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (27.0 KB). Loaded Objects now: 4508.
+Memory consumption went from 150.1 MB to 150.1 MB.
+Total: 8.205400 ms (FindLiveObjects: 0.599700 ms CreateObjectMapping: 0.384600 ms MarkObjects: 7.143200 ms  DeleteObjects: 0.075700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 83.054767 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '508a0913b4960e90d0a547f6318d1465') in 0.091357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.226499 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ede3cc536683214997cd4364c47aa2a0') in 0.015952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.071379 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87570affc208fc4e2ee8430bd9662d5b') in 0.029441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.275232 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef4c439b68bb37bae52e84273705ea7b') in 0.015983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.481621 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3dc24631fdf7c9b06cab6fe63932f27') in 0.011775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.334566 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be10a08c8972282523a722bd60805cef') in 0.010375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.494748 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '690af974dc5e1f0abd576b6691851bf8') in 0.009994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.509892 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0cd412a8744bd82caf04df838ea7703') in 0.019194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.282014 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f2a23d4ca6bd0a9580eec61522e7eb4') in 0.011394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.494516 seconds.
+  path: Assets/PastryClicker.prefab
+  artifactKey: Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PastryClicker.prefab using Guid(8a190dea22433a14495a051bfc24cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3164e2cd8ada11e1b656105e89c4b702') in 0.018563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 71.006696 seconds.
+  path: Assets/DonutClicker.prefab
+  artifactKey: Guid(ff7b30f3f9a9ec644a820d7f73a3f515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DonutClicker.prefab using Guid(ff7b30f3f9a9ec644a820d7f73a3f515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa9af042b00e93418559aabb17094011') in 0.020675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.795726 seconds.
+  path: Assets/DonutClicker.prefab
+  artifactKey: Guid(ff7b30f3f9a9ec644a820d7f73a3f515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DonutClicker.prefab using Guid(ff7b30f3f9a9ec644a820d7f73a3f515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a382fb7ee12f6aa867b461a67efb7440') in 0.006673 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014998 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\kauffmh\Documents\GitHub\chill-jam\ChaosClicker\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\kauffmh\Documents\GitHub\chill-jam\ChaosClicker\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.493 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2494ms)
+		BeginReloadAssembly (387ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (77ms)
+		EndReloadAssembly (1877ms)
+			LoadAssemblies (301ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1007ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (578ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (128ms)
+				ProcessInitializeOnLoadAttributes (348ms)
+				ProcessInitializeOnLoadMethodAttributes (60ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.05 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4034 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (27.0 KB). Loaded Objects now: 4511.
+Memory consumption went from 150.2 MB to 150.1 MB.
+Total: 4.811500 ms (FindLiveObjects: 0.429500 ms CreateObjectMapping: 0.214200 ms MarkObjects: 4.110900 ms  DeleteObjects: 0.055700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 5894.945156 seconds.
+  path: Assets/scre.cs
+  artifactKey: Guid(4081043ebb9c7304487828353a3fd285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scre.cs using Guid(4081043ebb9c7304487828353a3fd285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa4f67c28aa7cbf71b14e6c672144994') in 0.129426 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014224 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\kauffmh\Documents\GitHub\chill-jam\ChaosClicker\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\kauffmh\Documents\GitHub\chill-jam\ChaosClicker\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.361 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2362ms)
+		BeginReloadAssembly (332ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (1808ms)
+			LoadAssemblies (270ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (956ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (565ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (126ms)
+				ProcessInitializeOnLoadAttributes (337ms)
+				ProcessInitializeOnLoadMethodAttributes (61ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.54 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4035 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (24.7 KB). Loaded Objects now: 4515.
+Memory consumption went from 150.2 MB to 150.2 MB.
+Total: 7.826200 ms (FindLiveObjects: 0.588200 ms CreateObjectMapping: 0.361300 ms MarkObjects: 6.823400 ms  DeleteObjects: 0.051000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016804 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\kauffmh\Documents\GitHub\chill-jam\ChaosClicker\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\kauffmh\Documents\GitHub\chill-jam\ChaosClicker\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.520 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2521ms)
+		BeginReloadAssembly (383ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (72ms)
+		EndReloadAssembly (1910ms)
+			LoadAssemblies (308ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (990ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (600ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (123ms)
+				ProcessInitializeOnLoadAttributes (370ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.08 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4034 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (24.7 KB). Loaded Objects now: 4517.
+Memory consumption went from 150.2 MB to 150.1 MB.
+Total: 5.161100 ms (FindLiveObjects: 0.452900 ms CreateObjectMapping: 0.203200 ms MarkObjects: 4.469200 ms  DeleteObjects: 0.034100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014911 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\kauffmh\Documents\GitHub\chill-jam\ChaosClicker\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\kauffmh\Documents\GitHub\chill-jam\ChaosClicker\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.688 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1689ms)
+		BeginReloadAssembly (215ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (1299ms)
+			LoadAssemblies (158ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (384ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (608ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (143ms)
+				ProcessInitializeOnLoadAttributes (349ms)
+				ProcessInitializeOnLoadMethodAttributes (69ms)
+				AfterProcessingInitializeOnLoad (22ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.27 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4034 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (24.6 KB). Loaded Objects now: 4520.
+Memory consumption went from 150.2 MB to 150.2 MB.
+Total: 4.332000 ms (FindLiveObjects: 0.377300 ms CreateObjectMapping: 0.185500 ms MarkObjects: 3.738400 ms  DeleteObjects: 0.029700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014686 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\kauffmh\Documents\GitHub\chill-jam\ChaosClicker\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\kauffmh\Documents\GitHub\chill-jam\ChaosClicker\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.27 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.756 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1757ms)
+		BeginReloadAssembly (211ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (58ms)
+		EndReloadAssembly (1367ms)
+			LoadAssemblies (150ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (433ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (632ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (141ms)
+				ProcessInitializeOnLoadAttributes (370ms)
+				ProcessInitializeOnLoadMethodAttributes (75ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.24 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4034 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (24.7 KB). Loaded Objects now: 4523.
+Memory consumption went from 150.2 MB to 150.2 MB.
+Total: 4.285100 ms (FindLiveObjects: 0.381800 ms CreateObjectMapping: 0.185700 ms MarkObjects: 3.680600 ms  DeleteObjects: 0.035900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
